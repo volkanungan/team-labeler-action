@@ -1,3 +1,5 @@
+Forked from https://github.com/JulienKode/team-labeler-action
+
 # Team Labeler Action 👥
 
 [![build](https://github.com/JulienKode/team-labeler-action/workflows/build/badge.svg)](https://github.com/JulienKode/team-labeler-action/actions)
@@ -44,7 +46,7 @@ jobs:
   team-labeler:
     runs-on: ubuntu-latest
     steps:
-    - uses: JulienKode/team-labeler-action@v0.1.0
+    - uses: Shopify/team-labeler-action
       with:
         repo-token: "${{ secrets.GITHUB_TOKEN }}"
 ```
